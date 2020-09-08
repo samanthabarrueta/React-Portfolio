@@ -16,7 +16,7 @@ const Home = () => {
         <Col lg={6}> 
           <h2>Samantha Barrueta</h2> 
           <p>
-            Full Stack Developer located in Chicago, IL. I have a strong desire for knowledge and I enjoy environments that foster learning. I'm currently enrolled in Northwestern University's Full Stack Coding Bootcamp which is providing me with experience in JavaScript, Node.js, React, HTML, CSS, and MongoDB. View my projects for examples of my ability and skills. As a longtime hobbyist photographer, I appreciate the value in creativity, especially when applied with proper technique. This appreciation pushes me to be constantly learning and applying what I've learned to improve my code. 
+            Full Stack Developer located in Chicago, IL. I have a strong desire for knowledge and I enjoy environments that foster learning. I'm currently enrolled in Northwestern University's Full Stack Coding Bootcamp which is providing me with experience in JavaScript, Node.js, React, HTML, CSS, and MongoDB. View my projects for examples of my ability and skills. As a photography enthusiast, I appreciate the value in creativity, especially when applied with proper technique. This appreciation pushes me to be constantly learning and applying what I've learned to improve my code. 
           </p>    
         </Col>
       </Row>
