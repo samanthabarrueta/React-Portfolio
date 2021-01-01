@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import NavTabs from "./NavTabs";
+import Navbar from "./Navbar";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 
@@ -24,7 +24,7 @@ class Portfolio extends Component {
   render() {
     return (
       <div>
-        <NavTabs
+        <Navbar
           currentPage={this.state.currentPage}
           handlePageChange={this.handlePageChange}
         />
