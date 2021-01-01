@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Navbar from "../Navbar";
 import Home from "../../pages/Home";
 import Projects from "../../pages/Projects";
