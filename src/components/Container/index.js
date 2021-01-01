@@ -1,10 +1,11 @@
 import React, { Component } from "react";
-import Navbar from "./Navbar";
-import Home from "./pages/Home";
-import Projects from "./pages/Projects";
+import Navbar from "../Navbar";
+import Home from "../../pages/Home";
+import Projects from "../../pages/Projects";
+import "./index.css";
 
 
-class Portfolio extends Component {
+class Container extends Component {
   state = {
     currentPage: "Home"
   };
