@@ -1,38 +1,46 @@
 import React from "react";
-import Navbar from "../Navbar";
-import Home from "../../pages/Home";
-import Projects from "../../pages/Projects";
-import "./index.css";
-
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
 
 class Container extends Component {
-  state = {
-    currentPage: "Home"
-  };
+    state = {
+        currentPage: "Home"
+    };
 
-  handlePageChange = page => {
-    this.setState({ currentPage: page });
-  };
+    handlePageChange = page => {
+        this.setState({ currentPage: page });
+    };
 
-  renderPage = () => {
-    if (this.state.currentPage === "Home") {
-      return <Home />;
-    } else if (this.state.currentPage === "Projects") {
-      return <Projects />;
-    }
-  };
+    renderPage = () => {
+        if (this.state.currentPage === "Home") {
+            return <Home />;
+        } else if (this.state.currentPage === "Projects") {
+            return <Projects />;
+        };
+    };
 
-  render() {
-    return (
-      <div>
-        <Navbar
-          currentPage={this.state.currentPage}
-          handlePageChange={this.handlePageChange}
-        />
-        {this.renderPage()}
-      </div>
-    );
-  }
-}
+    render() {
+        return (
+            <div className="container">
+                <Router>
+                    <Navbar />
+                    <Route exact path="/React-Portfolio" component={Home} />
+                    <Route path="/Projects" component={Projects} />      
+                </Router>
+            
+            
+                <Navbar
+                    currentPage={this.state.currentPage}
+                    handlePageChange={this.handlePageChange}
+                />
+                
+                {this.renderPage()}
+            </div>
+        );
+    };
+};
 
-export default Portfolio;
+export default Container;

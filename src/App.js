@@ -8,11 +8,9 @@ import Projects from "./pages/Projects";
 const App = () => {
   return (
     <Router>
-      <div>
         <Navbar />
         <Route exact path="/React-Portfolio" component={Home} />
-        <Route path="/Projects" component={Projects} />
-      </div>
+        <Route path="/Projects" component={Projects} />      
     </Router>
   );
   
