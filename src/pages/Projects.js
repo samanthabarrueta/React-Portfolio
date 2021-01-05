@@ -16,13 +16,23 @@ const Projects = () => {
             <Row>
                 <Col lg={6}>
                     <Card>
-                        <p>This is a description of project 1</p>
+                        <h1>Project Name</h1>
+                        <p>Quick Description</p>
+                        <p>Link to deployed App</p>
+                        <p>Login Info if Applicable</p>
+                        <p>Link to Github</p>
+                        <p>Images</p>
                     </Card>
                 </Col>
 
                 <Col lg={6}>
                     <Card>
-                        <p>This is a description of project 2</p>
+                        <h1>Project Name</h1>
+                        <p>Quick Description</p>
+                        <p>Link to deployed App</p>
+                        <p>Login Info if Applicable</p>
+                        <p>Link to Github</p>
+                        <p>Images</p>
                     </Card>
                 </Col>
             </Row>
@@ -30,13 +40,23 @@ const Projects = () => {
             <Row>
                 <Col lg={6}>
                     <Card>
-                        <p>This is a description of project 3</p>
+                        <h1>Project Name</h1>
+                        <p>Quick Description</p>
+                        <p>Link to deployed App</p>
+                        <p>Login Info if Applicable</p>
+                        <p>Link to Github</p>
+                        <p>Images</p>
                     </Card>
                 </Col>
 
                 <Col lg={6}>
                     <Card>
-                        <p>This is a description of project 4</p>
+                        <h1>Project Name</h1>
+                        <p>Quick Description</p>
+                        <p>Link to deployed App</p>
+                        <p>Login Info if Applicable</p>
+                        <p>Link to Github</p>
+                        <p>Images</p>
                     </Card>
                 </Col>
             </Row>  
