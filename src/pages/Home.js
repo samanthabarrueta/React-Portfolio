@@ -38,61 +38,61 @@ const Home = () => {
                             <Row className="row justify-content-md-center">(708) 566- 7183</Row>
                         </Col> 
                     </Row>
+
+                    <Row>
+                        <Col>
+                            <h1>Projects</h1>
+                        </Col>
+                    </Row>
+
+                    <Row>
+                        <Col lg={6}>
+                            <Card>
+                                <h1>Project Name</h1>
+                                <p>Quick Description</p>
+                                <p>Link to deployed App</p>
+                                <p>Login Info if Applicable</p>
+                                <p>Link to Github</p>
+                                <p>Images</p>
+                            </Card>
+                        </Col>
+
+                        <Col lg={6}>
+                            <Card>
+                                <h1>Project Name</h1>
+                                <p>Quick Description</p>
+                                <p>Link to deployed App</p>
+                                <p>Login Info if Applicable</p>
+                                <p>Link to Github</p>
+                                <p>Images</p>
+                            </Card>
+                        </Col>
+                    </Row>
+
+                    <Row>
+                        <Col lg={6}>
+                            <Card>
+                                <h1>Project Name</h1>
+                                <p>Quick Description</p>
+                                <p>Link to deployed App</p>
+                                <p>Login Info if Applicable</p>
+                                <p>Link to Github</p>
+                                <p>Images</p>
+                            </Card>
+                        </Col>
+
+                        <Col lg={6}>
+                            <Card>
+                                <h1>Project Name</h1>
+                                <p>Quick Description</p>
+                                <p>Link to deployed App</p>
+                                <p>Login Info if Applicable</p>
+                                <p>Link to Github</p>
+                                <p>Images</p>
+                            </Card>
+                        </Col>
+                    </Row>
                 </Card>
-            </Row> 
-
-            <Row>
-                <Col>
-                    <h1>Projects</h1>
-                </Col>
-            </Row>
-
-            <Row>
-                <Col lg={6}>
-                    <Card>
-                        <h1>Project Name</h1>
-                        <p>Quick Description</p>
-                        <p>Link to deployed App</p>
-                        <p>Login Info if Applicable</p>
-                        <p>Link to Github</p>
-                        <p>Images</p>
-                    </Card>
-                </Col>
-
-                <Col lg={6}>
-                    <Card>
-                        <h1>Project Name</h1>
-                        <p>Quick Description</p>
-                        <p>Link to deployed App</p>
-                        <p>Login Info if Applicable</p>
-                        <p>Link to Github</p>
-                        <p>Images</p>
-                    </Card>
-                </Col>
-            </Row>
-
-            <Row>
-                <Col lg={6}>
-                    <Card>
-                        <h1>Project Name</h1>
-                        <p>Quick Description</p>
-                        <p>Link to deployed App</p>
-                        <p>Login Info if Applicable</p>
-                        <p>Link to Github</p>
-                        <p>Images</p>
-                    </Card>
-                </Col>
-
-                <Col lg={6}>
-                    <Card>
-                        <h1>Project Name</h1>
-                        <p>Quick Description</p>
-                        <p>Link to deployed App</p>
-                        <p>Login Info if Applicable</p>
-                        <p>Link to Github</p>
-                        <p>Images</p>
-                    </Card>
-                </Col>
             </Row>  
         </Container>
     );
