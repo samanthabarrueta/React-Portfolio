@@ -1,44 +1,45 @@
 import React from "react";
-import Nav from "react-bootstrap/Nav"
-import { Link, useLocation } from "react-router-dom";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import { useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 import "./index.css";
 
-const Navbar = () => {
+const Navigation = () => {
     const location = useLocation();
 
     return (
         <div className="navbar">
-            <Nav defaultActiveKey="/home">
-                <Nav.Item className="spacing">
-                    <li className="nav-item">
+            <Navbar defaultActiveKey="/home">
+                <Nav className="spacing">
+                    <Nav.Link href="#home">
                         <a href="https://www.linkedin.com/in/samantha-barrueta/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={ faLinkedinIn } /></a>
-                    </li>
-                </Nav.Item>
+                    </Nav.Link>
+                </Nav>
 
-                <Nav.Item className="spacing">
-                    <li className="nav-item">
+                <Nav className="spacing">
+                    <Nav.Link href="#home">
                         <a href="https://github.com/samanthabarrueta" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={ faGithub } /></a>
-                    </li>
-                </Nav.Item>
-            </Nav>
+                    </Nav.Link>
+                </Nav>
+            </Navbar>
 
-            <Nav>
-                <Nav.Item>
-                    <Link to="/React-Portfolio" className={location.pathname === "/React-Portfolio" ? "nav-link active" : "nav-link"}>
+            <Navbar>
+                <Nav className="spacing">
+                    <Nav.Link href="#about"  className={"nav-link active", "nav-link"}>
                         About
-                    </Link>
-                </Nav.Item>
+                    </Nav.Link>
+                </Nav>
 
-                <Nav.Item>
-                    <Link to="/Projects" className={location.pathname === "/Projects" ? "nav-link active" : "nav-link"}>
+                <Nav className="spacing">
+                    <Nav.Link href="#projects" className={"nav-link active", "nav-link"}>
                         Projects
-                    </Link>
-                </Nav.Item>
-            </Nav>
+                    </Nav.Link>
+                </Nav>
+            </Navbar>
         </div>
   );
 }
 
-export default Navbar;
+export default Navigation;
