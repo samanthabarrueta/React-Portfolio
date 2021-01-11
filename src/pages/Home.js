@@ -14,7 +14,7 @@ const Home = () => {
                 <Card>
                     <Row>
                         <Col lg={4}>      
-                            <img src={Image} alt="Samantha" width="300" />          
+                            <img src={Image} alt="Samantha" width="300" id="about" />          
                         </Col>
                         <Col lg={6}> 
                             <h2>Samantha Barrueta</h2> 
@@ -41,7 +41,7 @@ const Home = () => {
 
                     <Row>
                         <Col>
-                            <h1>Projects</h1>
+                            <h1 id="projects">Projects</h1>
                         </Col>
                     </Row>
 
