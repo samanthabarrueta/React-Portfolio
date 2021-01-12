@@ -24,21 +24,6 @@ const Home = () => {
                         </Col>
                     </Row>
 
-                    <Row className="row justify-content-md-center">
-                        <h3>Contact Me</h3> 
-                    </Row>
-
-                    <Row>
-                        <Col lg={6}>
-                            <Row className="row justify-content-md-center"><FontAwesomeIcon icon={ faEnvelope } size="2x" /></Row>
-                            <Row className="row justify-content-md-center">samanthabarrueta@gmail.com</Row>
-                        </Col>
-                        <Col lg={6}>
-                            <Row className="row justify-content-md-center"><FontAwesomeIcon icon={ faPhone } size="2x" /></Row>
-                            <Row className="row justify-content-md-center">(708) 566- 7183</Row>
-                        </Col> 
-                    </Row>
-
                     <Row>
                         <Col>
                             <h1 id="projects">Projects</h1>
@@ -91,6 +76,21 @@ const Home = () => {
                                 <p>Images</p>
                             </Card>
                         </Col>
+                    </Row>
+
+                    <Row className="row justify-content-md-center">
+                        <h3 id="contact">Contact Me</h3> 
+                    </Row>
+
+                    <Row>
+                        <Col lg={6}>
+                            <Row className="row justify-content-md-center"><FontAwesomeIcon icon={ faEnvelope } size="2x" /></Row>
+                            <Row className="row justify-content-md-center">samanthabarrueta@gmail.com</Row>
+                        </Col>
+                        <Col lg={6}>
+                            <Row className="row justify-content-md-center"><FontAwesomeIcon icon={ faPhone } size="2x" /></Row>
+                            <Row className="row justify-content-md-center">(708) 566- 7183</Row>
+                        </Col> 
                     </Row>
                 </Card>
             </Row>  
