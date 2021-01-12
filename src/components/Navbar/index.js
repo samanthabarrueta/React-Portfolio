@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { Link, animateScroll as scroll } from "react-scroll";
 import { useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -27,15 +28,21 @@ const Navigation = () => {
 
             <Navbar>
                 <Nav className="spacing">
-                    <Nav.Link href="#about"  className={"nav-link active", "nav-link"}>
+                    <Link to="about" spy={true} smooth={true} offset={-70} duration={500} className={"nav-link active", "nav-link"}>
                         About
-                    </Nav.Link>
+                    </Link>
                 </Nav>
 
                 <Nav className="spacing">
-                    <Nav.Link href="#projects" className={"nav-link active", "nav-link"}>
+                    <Link to="projects" spy={true} smooth={true} offset={-70} duration={500} className={"nav-link active", "nav-link"}>
                         Projects
-                    </Nav.Link>
+                    </Link>
+                </Nav>
+
+                <Nav className="spacing">
+                    <Link to="contact" spy={true} smooth={true} offset={-70} duration={500} className={"nav-link active", "nav-link"}>
+                        Contact
+                    </Link>
                 </Nav>
             </Navbar>
         </div>
