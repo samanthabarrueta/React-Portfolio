@@ -87,13 +87,12 @@ const Home = () => {
             </Row>
 
             <Row>
-                <Col lg={6}>
-                    <Row className="row justify-content-md-center"><FontAwesomeIcon icon={ faEnvelope } size="2x" /></Row>
-                    <Row className="row justify-content-md-center">samanthabarrueta@gmail.com</Row>
-                </Col>
-                <Col lg={6}>
-                    <Row className="row justify-content-md-center"><FontAwesomeIcon icon={ faPhone } size="2x" /></Row>
-                    <Row className="row justify-content-md-center">(708) 566- 7183</Row>
+                <Col>
+                    <Row className="row justify-content-center"><FontAwesomeIcon icon={ faEnvelope } size="2x" /></Row>
+                    <Row className="row justify-content-center">samanthabarrueta@gmail.com</Row>
+                    <br />
+                    <Row className="row justify-content-center"><FontAwesomeIcon icon={ faPhone } size="2x" /></Row>
+                    <Row className="row justify-content-center">(708) 566- 7183</Row>
                 </Col> 
             </Row>
         </Container>
