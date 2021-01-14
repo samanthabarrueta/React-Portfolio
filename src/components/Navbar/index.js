@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import Row from "react-bootstrap/Row";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -11,20 +12,21 @@ const Navigation = () => {
     const location = useLocation();
 
     return (
-            <Navbar sticky="top">
-                <Nav className="spacing">
-                    <Nav.Link href="#home">
-                        <a href="https://www.linkedin.com/in/samantha-barrueta/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={ faLinkedinIn } /></a>
-                    </Nav.Link>
-                </Nav>
+        <Navbar className="navbar" sticky="top">
+            <Nav className="spacing">
+                <Nav.Link href="#home">
+                    <a href="https://www.linkedin.com/in/samantha-barrueta/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={ faLinkedinIn } /></a>
+                </Nav.Link>
+            </Nav>
 
-                <Nav className="spacing">
-                    <Nav.Link href="#home">
-                        <a href="https://github.com/samanthabarrueta" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={ faGithub } /></a>
-                    </Nav.Link>
-                </Nav>
+            <Nav className="spacing">
+                <Nav.Link href="#home">
+                    <a href="https://github.com/samanthabarrueta" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={ faGithub } /></a>
+                </Nav.Link>
+            </Nav>
 
-                <Navbar sticky="top" className="ml-auto">
+            <div className="ml-auto">
+                <Row>
                     <Nav className="spacing">
                         <Link to="about" spy={true} smooth={true} offset={-70} duration={500} className={"nav-link active", "nav-link"}>
                             About
@@ -42,9 +44,10 @@ const Navigation = () => {
                             Contact
                         </Link>
                     </Nav>
-                </Navbar>
-            </Navbar>
+                </Row>
+            </div>
+        </Navbar>
     );
-}
+};
 
 export default Navigation;

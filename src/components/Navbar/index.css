@@ -4,7 +4,8 @@ a {
 
 .navbar {
     margin-bottom: 5px;
-    background-color: beige;
+    border-bottom: 5px solid gray;
+    background-color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
