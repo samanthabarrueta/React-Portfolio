@@ -28,14 +28,14 @@ const Home = () => {
 
             <Row>
                 <Col>
-                    <h1 id="projects">Projects</h1>
+                    <h2 id="projects">Projects</h2>
                 </Col>
             </Row>
 
             <Row>
                 <Col lg={6}>
                     <Card>
-                        <h1>Project Name</h1>
+                        <h3>Project Name</h3>
                         <p>Quick Description</p>
                         <p>Link to deployed App</p>
                         <p>Login Info if Applicable</p>
@@ -46,7 +46,7 @@ const Home = () => {
 
                 <Col lg={6}>
                     <Card>
-                        <h1>Project Name</h1>
+                        <h3>Project Name</h3>
                         <p>Quick Description</p>
                         <p>Link to deployed App</p>
                         <p>Login Info if Applicable</p>
@@ -59,7 +59,7 @@ const Home = () => {
             <Row>
                 <Col lg={6}>
                     <Card>
-                        <h1>Project Name</h1>
+                        <h3>Project Name</h3>
                         <p>Quick Description</p>
                         <p>Link to deployed App</p>
                         <p>Login Info if Applicable</p>
@@ -70,7 +70,7 @@ const Home = () => {
 
                 <Col lg={6}>
                     <Card>
-                        <h1>Project Name</h1>
+                        <h3>Project Name</h3>
                         <p>Quick Description</p>
                         <p>Link to deployed App</p>
                         <p>Login Info if Applicable</p>
@@ -81,7 +81,9 @@ const Home = () => {
             </Row>
 
             <Row className="row justify-content-md-center">
-                <h3 id="contact">Contact Me</h3> 
+                <Col>
+                    <h2 id="contact">Contact Me</h2>
+                </Col> 
             </Row>
 
             <Row>
