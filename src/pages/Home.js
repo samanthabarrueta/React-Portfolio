@@ -1,22 +1,25 @@
 import React from "react";
 import Card from "../components/Card";
 import Container from "react-bootstrap/Container";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "../../src/images/IMG_2838edit.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
     return (
-        <Container>
+        <Container fluid="lg">
             <Row>
-                <Card>
-                    <Row>
-                        <Col lg={4}>      
-                            <img src={Image} alt="Samantha" width="300" id="about" />          
+                <Card >
+                    <Row className="text-center">
+                        <Col lg={12}>      
+                            <img src={Image} alt="Samantha" width="300" id="about"/>          
                         </Col>
-                        <Col lg={6}> 
+                    </Row>
+
+                    <Row className="text-center">
+                        <Col lg={12}> 
                             <h2>Samantha Barrueta</h2> 
                             <p>
                             Full Stack Developer located in Chicago, IL. I have a strong desire for knowledge and I enjoy environments that foster learning. I've obtained a certificate in Full Stack Web Development, from Northwestern University's Coding Bootcamp. I have experience in JavaScript, Node.js, React, HTML, CSS, and MongoDB. View my projects for examples of my ability and skills. As a photography enthusiast, I appreciate the value in creativity, especially when applied with proper technique. This appreciation pushes me to be constantly learning and applying what I've learned to improve my code. 
