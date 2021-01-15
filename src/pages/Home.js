@@ -33,7 +33,7 @@ const Home = () => {
             </Row>
 
             <Row>
-                <Col lg={6}>
+                <Col md={6}>
                     <Card>
                         <h3>Project Name</h3>
                         <p>Quick Description</p>
@@ -44,7 +44,7 @@ const Home = () => {
                     </Card>
                 </Col>
 
-                <Col lg={6}>
+                <Col md={6}>
                     <Card>
                         <h3>Project Name</h3>
                         <p>Quick Description</p>
@@ -57,7 +57,7 @@ const Home = () => {
             </Row>
 
             <Row>
-                <Col lg={6}>
+                <Col md={6}>
                     <Card>
                         <h3>Project Name</h3>
                         <p>Quick Description</p>
@@ -68,7 +68,7 @@ const Home = () => {
                     </Card>
                 </Col>
 
-                <Col lg={6}>
+                <Col md={6}>
                     <Card>
                         <h3>Project Name</h3>
                         <p>Quick Description</p>
@@ -87,10 +87,11 @@ const Home = () => {
             </Row>
 
             <Row>
-                <Col>
+                <Col sm={12} md={6}>
                     <Row className="row justify-content-center"><FontAwesomeIcon icon={ faEnvelope } size="2x" /></Row>
                     <Row className="row justify-content-center">samanthabarrueta@gmail.com</Row>
-                    <br />
+                </Col>
+                <Col sm={12} md={6}>
                     <Row className="row justify-content-center"><FontAwesomeIcon icon={ faPhone } size="2x" /></Row>
                     <Row className="row justify-content-center">(708) 566- 7183</Row>
                 </Col> 
