@@ -4,7 +4,7 @@ import "./index.css";
 
 const CardContainer = (props) => {
     return (
-        <div className="card">
+        <div>
             <Card>
                 <Card.Body>{props.children}</Card.Body>
             </Card>
