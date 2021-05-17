@@ -35,22 +35,22 @@ const Home = () => {
             <Row>
                 <Col md={6}>
                     <Card>
-                        <h3>Project Name</h3>
+                        <h3>Covid Bartender</h3>
                         <p>Quick Description</p>
                         <p>Link to deployed App</p>
                         <p>Login Info if Applicable</p>
-                        <p>Link to Github</p>
+                        <p><a target='blank' href='https://github.com/samanthabarrueta/front-end-project-2'>View FE Github</a> | <a target='blank' href='https://github.com/samanthabarrueta/backend-project-2'>View BE Github</a></p>
                         <p>Images</p>
                     </Card>
                 </Col>
 
                 <Col md={6}>
                     <Card>
-                        <h3>Project Name</h3>
-                        <p>Quick Description</p>
+                        <h3>Space Adventurer</h3>
+                        <p>Arcade shooter game made using HTML canvas and javascript</p>
                         <p>Link to deployed App</p>
                         <p>Login Info if Applicable</p>
-                        <p>Link to Github</p>
+                        <p><a target='blank' href='https://github.com/samanthabarrueta/Space-Adventurer'>View Github</a></p>
                         <p>Images</p>
                     </Card>
                 </Col>
@@ -59,22 +59,22 @@ const Home = () => {
             <Row>
                 <Col md={6}>
                     <Card>
-                        <h3>Project Name</h3>
+                        <h3>Employee Management System</h3>
                         <p>Quick Description</p>
                         <p>Link to deployed App</p>
                         <p>Login Info if Applicable</p>
-                        <p>Link to Github</p>
+                        <p><a target='blank' href='https://github.com/samanthabarrueta/React-Employee-Mngmt-System'>View Github</a></p>
                         <p>Images</p>
                     </Card>
                 </Col>
 
                 <Col md={6}>
                     <Card>
-                        <h3>Project Name</h3>
-                        <p>Quick Description</p>
+                        <h3>IQ Solutions</h3>
+                        <p>Website for local mold, water, and fire restoration company.</p>
                         <p>Link to deployed App</p>
                         <p>Login Info if Applicable</p>
-                        <p>Link to Github</p>
+                        <p><a target='blank' href='https://github.com/samanthabarrueta/IQ-Solutions'>View Github</a></p>
                         <p>Images</p>
                     </Card>
                 </Col>
