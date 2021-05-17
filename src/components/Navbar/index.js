@@ -28,19 +28,19 @@ const Navigation = () => {
             <div className="ml-auto">
                 <Row>
                     <Nav className="spacing">
-                        <Link to="about" spy={true} smooth={true} offset={-70} duration={500} className={"nav-link active", "nav-link"}>
+                        <Link to="about" spy={true} smooth={true} offset={-70} duration={500} className={"nav-link active nav-link"}>
                             About
                         </Link>
                     </Nav>
 
                     <Nav className="spacing">
-                        <Link to="projects" spy={true} smooth={true} offset={-70} duration={500} className={"nav-link active", "nav-link"}>
+                        <Link to="projects" spy={true} smooth={true} offset={-70} duration={500} className={"nav-link active nav-link"}>
                             Projects
                         </Link>
                     </Nav>
 
                     <Nav className="spacing">
-                        <Link to="contact" spy={true} smooth={true} offset={-70} duration={500} className={"nav-link active", "nav-link"}>
+                        <Link to="contact" spy={true} smooth={true} offset={-70} duration={500} className={"nav-link active nav-link"}>
                             Contact
                         </Link>
                     </Nav>
